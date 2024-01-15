@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #1A1E20;
+}
+
+.modal-body {
+    background-color: #1A1E20;
+    input {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    div {
+        width: 100% !important;
+    }
+}
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+@media (min-width: 1400px) {  }
+@media (min-width: 992px) {  }
+
+@keyframes glowing {
+    0% {  box-shadow: 0 0 3px #00C51D;}
+    50% { box-shadow: 0 0 20px #00C51D;}
+    100% { box-shadow: 0 0 3px #00C51D;}
+}
+
+.main, .modal-body {
+    [class*="col-"] {
+        padding: 0;
+    }
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+    div.with-transparent-border {
+        margin: 10px;
+        padding: 30px;
+    }
+    div.fill-space {
+        flex-grow: 2;
+    }
+    button.btn-primary {
+        background-color: #00C51D !important;
+        border-color: #00C51D !important;
+        color: #ffffff !important;
+        font-size: 30px;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-name: glowing;
+    }
+    button.btn-secondary {
+        background-color: #00C51D !important;
+        border-color: #00C51D !important;
+        color: #ffffff !important;
+    }
+    .btn-link {
+        color: #00C51D !important;
+    }
+    div.with-border {
+        border: 3px solid #ffffff;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 30px;
+    }
+    div.logo-container {
+        img {
+            max-width: 300px;
+        }
+    }
+    div.main-content {
+        width: 860px;
+    }
+    div.bg-green {
+        background-color: #00C51D;
+        border-color: #00C51D;
+        color: #ffffff;
+    }
+    div.bg-dark {
+        background-color: #1A1E20;
+    }
+    div.bg-orange {
+        background-color: #ff7402;
+        border-color: #ff7402;
+        color: #ffffff;
+    }
+    .bg-content {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 400px;
+        background-image: url('../images/slider-2-1920x900.jpg') !important;
+        background-size: 1000px ;
+        background-position-x: -430px;
+        background-position-y: 0;
+        background-repeat: no-repeat !important;
+    }
+    .overflow-hidden {
+        overflow: hidden;
+        height: 180px;
+        position: relative;
+    }
+}
+
