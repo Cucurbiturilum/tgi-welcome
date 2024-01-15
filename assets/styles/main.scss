@@ -74,6 +74,11 @@ body {
   font-family: 'General Sans', sans-serif;
 }
 
+main{
+  overflow-y: visible;
+  overflow-x: clip;
+}
+
 .container {
   position: relative;
   width: 100%;
